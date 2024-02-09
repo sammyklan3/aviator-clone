@@ -1,0 +1,44 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between  ;
+    padding: 5px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: blue;
+    padding: 2px;
+    border-radius: 7px;
+}
+
+.nav-links a:hover{
+    background-color: rgb(230, 224, 224);
+    color: black;
+}
+
+.account-actions-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.account-actions-btn {
+    border-radius: 19px;
+    padding: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.account-actions-btn:hover {
+    background-color: white;
+    color: blue;
+    box-shadow: 0 0 10px 2px rgb(9, 9, 238);
+}
