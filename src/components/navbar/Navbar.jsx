@@ -1,8 +1,6 @@
 import "./navbar.css";
 
-export const Navbar = () => {
-
-    const balance = 200;
+export const Navbar = ({ balance}) => {
 
   return (
     <nav className='nav-bar'>
